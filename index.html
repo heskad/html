@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пример сайта</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Пример заголовка</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Портфолио</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>О нас</h2>
+            <p> </p>
+        </section>
+
+        <section id="services">
+            <h2>Услуги</h2>
+            <ul class="services-list">
+                <li>
+                    <img src="icon1.png" alt="Иконка услуги 1">
+                    <h3>Разработка веб-сайтов</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </li>
+                <li>
+                    <img src="icon2.png" alt="Иконка услуги 2">
+                    <h3>Мобильная разработка</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </li>
+                <li>
+                    <img src="icon3.png" alt="Иконка услуги 3">
+                    <h3>Дизайн</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="portfolio">
+            <h2>Портфолио</h2>
+            <ul class="projects">
+                <li>
+                    <a href="#">
+                        <img src="project1.jpg" alt="Проект 1">
+                        <h3>Проект 1</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="project2.jpg" alt="Проект 2">
+                        <h3>Проект 2</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="project3.jpg" alt="Проект 3">
+                        <h3>Проект 3</h3>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contacts">
+            <h2>Контакты</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <form action="#">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message"></textarea>
+
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Пример сайта</p>
+    </footer>
+</body>
+</html>
